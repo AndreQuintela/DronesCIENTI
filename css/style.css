@@ -291,11 +291,33 @@ CAROUSEL*/
   background-color: #4070F4;
 }
 
+.modelo3d{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modelo3d > h2{
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Special Elite', cursive;
+  padding: 10px;
+}
+
+.modelo3d > img{
+  width: 80%;
+  border-radius: 25px;
+  border: 2px solid rgba(255, 105, 180, 0.650);
+}
+
 .fim{
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 
 footer{
   background-color: #111;
@@ -378,6 +400,9 @@ footer > p{
     display: none;
   }
 
+.modelo3d > h2{
+  font-size: 12px;
+}
 
 .fim img{
   width: 250px;
